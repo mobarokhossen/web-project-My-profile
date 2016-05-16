@@ -148,7 +148,6 @@ body{
 }
 
 
-
 .schedule div{
 	float: left;
 }
@@ -183,6 +182,7 @@ body{
 }
 .scheduling_date{
 	padding: 2px 2px 30px 30px;
+	
 }
 
 .schedule input{
