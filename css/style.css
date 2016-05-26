@@ -229,8 +229,13 @@ option{
 	width: 100%;
 }
 
+@font-face{
+	font-family: hotelheading;
+	src: url(../css/EdwardianScriptITC.ttf);
+}
+
 .heading{
-	font-family:'Tangerine';
+	font-family: hotelheading;
 	font-size: 55px;
 	color: #373A3F;
 	margin-top: -63px;
