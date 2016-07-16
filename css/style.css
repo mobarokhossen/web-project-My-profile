@@ -12,6 +12,7 @@ body{
 .wrapper{
 	width: 95%;
 	text-align: center;
+	overflow: hidden;
 }
 .menu{
 	display: none;
@@ -83,7 +84,7 @@ body{
 
 .nav ul{
 	float: right;
-	margin-right: 120px;
+	margin: 0px;
 }
 
 .nav ul li{
@@ -177,7 +178,7 @@ body{
 	padding: 10px 2px 2px 36px;
 	font-size: 18px;
 	text-align: left !important;
-	margin-left: 15px;
+	margin-left: 30px;
 	color: #c0392b;
 }
 .scheduling_date{
@@ -187,8 +188,8 @@ body{
 
 .schedule input{
 	padding: 10px 0px 10px 10px;
-	font-size: 16px;
-	width:100%;
+	font-size: 15px;
+	width: 214px;
 	border-radius: 10px;
 	border: none;
 	color: #606166;
@@ -197,9 +198,9 @@ body{
 select{
 	margin-top: 34.5px;
 	margin-left: 10px;
-	font-size: 16px;
+	font-size: 15px;
 	border-radius: 10px;
-	padding: 11px 35px 9.5px 5px;
+	padding: 11px 20px 9.5px 5px;
 	border: none;
 	color: #606166;
 }
@@ -207,8 +208,8 @@ select{
 
 option{
 	width:100%;
-	font-size: 17px;
-	margin-left: 2px;
+	font-size: 15px;
+	padding-left: 15px;
 	color: #606166;
 }
 
@@ -549,7 +550,7 @@ option{
 	}
  
  .nav ul li {
-    padding: 32px 6px;
+    padding: 32px 15px;
 	}
  
  .icon p {
@@ -578,7 +579,7 @@ option{
 	}
 	
 	.schedule input {
-		padding: 5px 0px 5px 10px;
+		padding: 6px 0px 6px 10px;
 		font-size: 15px;
 		border-radius: 5px;
 		width: 90%;
@@ -606,7 +607,7 @@ option{
 	}
 	
 	.price a {
-		padding: 5.5px 12px;
+		padding: 7px 12px;
 		border-radius: 6px;
 	}
 	
@@ -668,7 +669,7 @@ option{
 
 .nav ul {
     float: right;
-    margin-right: 45px;
+    margin-right: 15px;
 }
 
 .nav ul li {
@@ -679,6 +680,65 @@ option{
     margin-top: 10px;
     font-size: 19px;
 	margin-left: 10px;
+}
+
+.schedule input {
+    font-size: 14px;
+    width: 215px;	
+    padding: 5px 0px 5px 10px;
+}
+
+select {
+    margin-left: 5px;
+    margin-top: 25.5px;
+    border-radius: 5px;
+    padding: 5px 37px 4px 10px;
+    font-size: 14px;
+}
+
+.scheduling {
+    padding: 10px 2px 2px 10px;
+    font-size: 14px;
+	margin-left: 26px;
+}
+
+
+.scheduling_date {
+    padding: 2px 5px 5px 10px;
+}
+
+.schedule div {
+    float: none;
+}
+.sche {
+    width: 94%;
+}
+
+.schedule {
+    width: 300px;
+	margin-top: 15px;
+}
+
+.schedule input {
+}
+
+
+
+.bg_img_disc p {
+    margin-left: -35px;
+}
+
+.price a {
+    padding: 7px 76px;
+	border-radius: 5px;
+}
+
+.price {
+    width: 100%;
+	font-size: 13px;
+	margin-left: 2px;
+    padding-bottom: 30px;
+	margin-top: 30px;
 }
 .rooms {
     padding-bottom: 20px;
@@ -696,52 +756,6 @@ option{
 .room i {
     margin-left: 6px;
     font-size: 18px;
-}
-.schedule {
-    margin-top: 15px;
-}
-.schedule input {
-    padding: 3px 0px 3px 10px;
-    font-size: 14px;
-    width: 80%;
-}
-
-select {
-    padding: 2px 0px 2px 0px;
-    margin-left: 5px;
-    margin-top: 25.5px;
-    font-size: 13px;
-    border-radius: 5px;
-}
-
-.scheduling {
-    padding: 10px 2px 2px 10px;
-    font-size: 14px;
-}
-
-
-.scheduling_date {
-    padding: 2px 5px 5px 10px;
-}
-
-
-
-
-.bg_img_disc p {
-    margin-left: -35px;
-}
-
-.price a {
-    padding: 7px 68px;
-	border-radius: 5px;
-}
-
-.price {
-    width: 100%;
-	font-size: 13px;
-	margin-left: 2px;
-    padding-bottom: 30px;
-	margin-top: 30px;
 }
 
 .hotel_history p:first-child {
@@ -762,29 +776,7 @@ select {
     font-size: 11px !important;
 }
 
-.schedule div {
-    float: none;
-}
-.sche {
-    width: 94%;
-}
 
-.schedule {
-    width: 30%;
-}
-
-.scheduling {
-    margin-left: 26px;
-}
-
-.schedule input {
-    padding: 5px 0px 5px 10px;
-}
-
-select {
-    padding: 5px 50px 4px 10px;
-    font-size: 14px;
-}
 
 .heading {
     margin-top: -224px;
@@ -794,7 +786,7 @@ select {
 
 
 }
-@media all and (max-width: 800px){
+@media all and  (max-width: 930px){
 	
 .menu{
 	display: block;
@@ -902,9 +894,6 @@ select {
     margin-left: 10px;
 }
 
-.schedule {
-    width: 37%;
-}
 
 
 .heading {
@@ -1003,9 +992,6 @@ select {
 
 @media all and (max-width: 650px){
 
-.schedule {
-    width: 46%;
-}
 
 .room {
     width: 49%;
@@ -1021,36 +1007,6 @@ select {
 .hotel_history p:first-child {
     font-size: 24px;
 }
-
-}
-
-
-@media all and (max-width: 480px){
-	
-.schedule {
-    width: 62%;
-}
-.slider {
-    height: 100px;
-}
-
-.hotel_history p:first-child {
-    font-size: 19px;
-}
-	
-.hotel_history div div:first-child {
-    width: 66%;
-}
-.hotel_history div div:nth-child(2) {
-    width: 34%;
-}
-
-.member input:last-child {
-    width: 20%;
-}
-
-}
-@media all and (max-width: 650px){
 	
 .nav ul {
     right: -29px;
@@ -1088,11 +1044,32 @@ select {
 .room {
     width: 47%;
 }
+.schedule {
+    width: 265px;
+}
+.slider {
+    height: 100px;
+}
+
+.hotel_history p:first-child {
+    font-size: 19px;
+}
+	
+.hotel_history div div:first-child {
+    width: 66%;
+}
+.hotel_history div div:nth-child(2) {
+    width: 34%;
+}
+
+.member input:last-child {
+    width: 20%;
+}
 
 }
 
 
-@media all and (max-width: 364px){
+@media all and (max-width: 440px){
 
 
 .nav ul {
@@ -1101,9 +1078,15 @@ select {
     top: 58px;
 }
 
+select {
+    padding: 4px 15px 4px 10px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
 .schedule input {
-    font-size: 11px;
-    width: 80%;
+    font-size: 12px;
+    width: 175px;
 }
 .room {
     width: 100%;
@@ -1119,13 +1102,8 @@ select {
     font-size: 12px;
 }
 
-select {
-    padding: 2px 18px 3px 10px;
-    font-size: 12px;
-    margin-top: 10px;
-}
 .price a {
-    padding: 5px 45px;
+    padding: 4px 55px;
 }
 .heading {
     font-size: 35px;
@@ -1190,7 +1168,7 @@ option {
 
 }
 
-@media all and (max-width: 325px){
+@media all and (max-width: 359px){
 
 
 .logo {
@@ -1201,13 +1179,7 @@ option {
     margin-top: 3px;
 }
 
-.schedule input {
-	width: 96%;
-}
-.scheduling {
-    font-size: 12px;
-    padding: 6px 2px 2px 0px;
-}
+
 
 .bg_img_disc p:first-child {
     font-size: 12px;
