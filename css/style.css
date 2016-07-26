@@ -812,11 +812,12 @@ select {
 }
 
 .nav ul li {
-    padding: 14px;
+    padding: 10px 14px;
 	float: none;
 	text-align: left;
 	background-color: #7f8c8d;	
 	border: none;
+	
 }
 
 .nav ul li:hover
@@ -834,10 +835,11 @@ select {
 
 .nav ul{
 	position: absolute;
-	right: -25px;
+	right: 2.4%;
 	top: 64px;
 	z-index: 99;
-	width: 17%;
+	width: 20%;
+	margin: 0px;
 }
 
 
@@ -1009,8 +1011,7 @@ select {
 }
 	
 .nav ul {
-    right: -29px;
-    width: 18%;
+    width: 20%;
 }
 .nav ul li {
     padding: 10px;
@@ -1026,7 +1027,6 @@ select {
     font-size: 10px;
 }
 .nav ul {
-    right: -33px;
     width: 22%;
 	top: 60px;
 }
@@ -1073,8 +1073,7 @@ select {
 
 
 .nav ul {
-    right: -36px;
-    width: 26%;
+    width: 25%;
     top: 58px;
 }
 
@@ -1188,7 +1187,7 @@ option {
     margin-top: 50px;
 }
 .nav ul {
-    width: 28%;
+    width: 30%;
     top: 56px;
 }
 .menu {
